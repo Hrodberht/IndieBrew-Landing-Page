@@ -11,14 +11,22 @@
 <body>
 <div class="container">
 <header class="header">
-<div class="header__container">
-    <div class="logo">
-        <a class="logo__link" href="index.html">
-            <img class=""logo__svg src="Assets/Logo.svg" alt="IndieBrew logo">
-        </a>
+<div class="header__container p-container">
+    <div class="header__flex-container">
+        <div class="header__logo">
+            <a class="header__logo-link" href="index.html">
+                <img class="header__logo-svg" src="Assets/Logo.svg" alt="IndieBrew logo">
+            </a>
+        </div>
+
+        <div class="header__hamburger">
+            <button class="header__hamburger-btn">
+                <img class="header__hamburger-img" src="Assets/Hamburger Menu.svg" alt="Hamburger Menu icon">
+            </button>
+        </div>
     </div>
 
-    <nav class="nav">
+    <nav class="nav hidden">
         <ul class="nav__list">
             <li class="nav__item">
                 <a class="nav__link" href="#">Pricing</a>
