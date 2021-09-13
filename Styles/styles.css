@@ -31,6 +31,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   max-width: 70ch;
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 button {
@@ -50,7 +52,7 @@ button {
 }
 
 .p-container {
-  padding: 0 20px;
+  padding: 0 16px;
 }
 
 img {
@@ -63,8 +65,60 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 /********** Main **********/
+
+/* Intro */
+
+.intro__container {
+  padding-bottom: 150px;
+}
+
+.intro__img-container {
+  margin: 0;
+}
+
+.intro__img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.intro__title {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.intro__description {
+  margin-top: 0;
+}
+
+.intro__link-container {
+  padding: 20px;
+  background-color: var(--purple);
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.intro__link {
+  color: var(--white);
+  text-decoration: none;;
+}
+
+.intro__user-avatars {
+  max-width: 190px;
+}
+
+.intro__user-count {
+  margin-top: 0;
+}
+
+.intro__number {
+  color: var(--purple);
+}
 
 /********** Footer **********/
