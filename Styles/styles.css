@@ -45,6 +45,10 @@ button {
   outline: inherit;
 }
 
+figure {
+  margin: 0;
+}
+
 /********** Utilities  **********/
 
 .hidden {
@@ -74,11 +78,7 @@ img {
 /* Intro */
 
 .intro__container {
-  padding-bottom: 150px;
-}
-
-.intro__img-container {
-  margin: 0;
+  padding-bottom: 120px;
 }
 
 .intro__img {
@@ -119,6 +119,45 @@ img {
 
 .intro__number {
   color: var(--purple);
+}
+
+/* Features */
+
+.features__container {
+  padding-bottom: 70px;
+}
+
+.feature__resources {
+  margin-bottom: 50px;
+}
+
+.features__social-icons {
+  max-width: 100%;
+}
+
+.feature__title {
+  font-size: 2.1em;
+  margin-bottom: 0;
+}
+
+.feature__description {
+  margin: 10px 0;
+}
+
+.feature__link-container {
+  margin-top: 0;
+}
+
+.feature__link {
+  color: var(--purple);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.feature__phone-mockup {
+  display: block;
+  max-width: 60%;
+  margin: 0 auto 50px;
 }
 
 /********** Footer **********/
