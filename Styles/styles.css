@@ -9,6 +9,10 @@
   --white: rgb(253, 252, 249);
   --black: rgb(0, 0, 0);
   --gray: rgb(107, 107, 107);
+
+
+  --pale-yellow: rgb(253, 252, 249);
+  --light-purple: rgb(236, 204, 247);
 }
 
 html {
@@ -49,6 +53,10 @@ figure {
   margin: 0;
 }
 
+.container {
+  background: linear-gradient(105deg, rgba(236,204,247,1) 0%, rgba(255,243,233,1) 12%, rgba(253,252,249,1) 27%);  
+}
+
 /********** Utilities  **********/
 
 .hidden {
@@ -75,15 +83,13 @@ img {
 
 /********** Main **********/
 
-/* Intro */
-
 .intro__container {
   padding-bottom: 120px;
 }
 
 .intro__img {
   display: block;
-  max-width: 100%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -123,7 +129,12 @@ img {
 
 /* Features */
 
+.features {
+  background-color: white;
+}
+
 .features__container {
+  padding-top: 20px;
   padding-bottom: 70px;
 }
 
@@ -161,3 +172,38 @@ img {
 }
 
 /********** Footer **********/
+
+.footer {
+  background-color: var(--pale-yellow);
+  padding-top: 40px;
+}
+
+.footer__container {
+  padding-bottom: 50px;
+}
+
+.footer__company {
+  margin-bottom: 45px;
+}
+
+.footer__title {
+  margin-bottom: 0;
+}
+
+.footer__description {
+  margin-top: 8px;
+}
+
+.footer__ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+.footer__nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 40%;
+}
