@@ -81,6 +81,10 @@ img {
   padding-bottom: 40px;
 }
 
+.nav {
+  display: none;
+}
+
 /********** Main **********/
 
 .intro__container {
@@ -206,4 +210,63 @@ img {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   column-gap: 40%;
+}
+
+@media only screen and (min-width: 680px) {
+/********** Utilities **********/
+
+.p-container {
+  padding: 0px 40px;
+}
+
+/********** Header **********/
+
+.nav {
+  display: block;
+}
+
+.header__hamburger {
+  display: none;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav__item {
+  
+  font-size: 1.1em;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.nav__link--purple {
+  padding: 20px;
+  background-color: var(--purple);
+  color: var(--white);
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+/********** Main **********/
+
+/* Intro */
+
+.intro__img {
+  max-width: 50%;
+}
+
+/********** Footer **********/
 }
