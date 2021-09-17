@@ -264,8 +264,40 @@ img {
 
 /* Intro */
 
+.intro__container {
+  padding-bottom: 150px;
+}
+
 .intro__img {
   max-width: 50%;
+}
+
+/* Features */
+
+.feature__social-container {
+  display: grid;
+  grid-template-columns: 60% 38%;
+  gap: 2%;
+  align-items: center;
+}
+
+.feature__social {
+  order: 2;
+}
+
+.feature__title {
+  font-size: 2.3em;
+}
+
+.feature__resources-container {
+  display: grid;
+  grid-template-columns: 38% 60%;
+  gap: 2%;
+  /* align-items: center; */
+}
+
+.feature__phone-mockup {
+  max-width: 100%;
 }
 
 /********** Footer **********/
