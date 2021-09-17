@@ -212,6 +212,11 @@ img {
   column-gap: 40%;
 }
 
+.footer__list-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media only screen and (min-width: 680px) {
 /********** Utilities **********/
 
@@ -301,4 +306,20 @@ img {
 }
 
 /********** Footer **********/
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 48% 44%;
+  gap: 8%;
+  padding-bottom: 50px;
+}
+
+.footer__list-title {
+  font-size: 1.3em;
+}
+
+.footer__list-item {
+  line-height: 1.9em;
+}
+
 }
