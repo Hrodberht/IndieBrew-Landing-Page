@@ -19,7 +19,7 @@
     
             <div class="header__back-btn">
                 <a class="header__back-btn-link" href="index.html">
-                    <img class="header__back-arrow" src="../Assets/Back Arrow.svg" alt="Image of a back arrow">
+                    <img class="header__back-arrow" src="Assets/Back Arrow.svg" alt="Image of a back arrow">
 
                     Back to homepage
                 </a>
@@ -35,42 +35,57 @@
         </h1>
 
         <p class="service-descr__feature">
-            <img class="service-descr__icon" alt="An icon of a baloon" src="../Assets/balloon.png">
+            <img class="service-descr__icon" alt="An icon of a baloon" src="Assets/balloon.png">
 
             Over 20 resources. With resources ranging from Reddit to IndieHackers, we've got all your needs covered.
         </p>
 
         <p class="service-descr__feature">
-            <img class="service-descr__icon" alt="An icon of a newspaper" src="../Assets/newspapaer.png">
+            <img class="service-descr__icon" alt="An icon of a newspaper" src="Assets/newspapaer.png">
             
             Delivered weekly. Every week at exactly Tuesday 12:00 P.M. EST - expect a value-packed digest right in your email.
         </p>
 
         <p class="service-descr__feature">
-            <img class="service-descr__icon" alt="An icon of a lightbulb" src="../Assets/lightbulb.png">
+            <img class="service-descr__icon" alt="An icon of a lightbulb" src="Assets/lightbulb.png">
 
             Unlimited ideas. With all the ideas you'll be reading about, what's stopping you from creating a sustainable startup?
         </p>
     </section>
+
+    <form class="form">
+        <h2 class="form__title">
+            Create your IndieBrew Account
+        </h2>
+
+        <p class="form__field">
+            <label for="email">Email</label>
+
+            <input type="email" name="email" class="form__email" id="email" placeholder="john@example.com">
+        </p>
+
+        <p class="form__field">
+            <label for="name">Full Name</label>
+
+            <input type="text" name="name" class="form__name" id="name" placeholder="John Doe">
+        </p>
+
+        <p class="form__field">
+            <label for="password">Password</label>
+
+            <input type="password" name="password" class="form__password" id="password" placeholder="At least 8 characters">
+        </p>
+
+        <p class="form__terms">
+            <input type="checkbox" name="checkbok" class="form__checkbox" id="checkbox">
+
+            By creating an account on IndieBrew, you agree to the Terms & Conditions.
+        </p>
+
+        <button class="form__button" type="button">
+            Create an Account
+        </button>
+    </form>
 </div>
 </main>
-
-
-
-
-
-
-
-
-Create your IndieBrew Account
-
-email
-
-Full Name
-
-Password
-
-By creating an account on IndieBrew, you agree to the Terms & Conditions.
-
-Create an Account
 </body>
