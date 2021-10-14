@@ -1,0 +1,28 @@
+/********** Base **********/
+
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+  --pink: rgb(236, 204, 247);
+  --purple: rgb(102, 78, 252);
+  --white: rgb(253, 252, 249);
+  --black: rgb(0, 0, 0);
+  --gray: rgb(107, 107, 107);
+
+
+  --pale-yellow: rgb(253, 252, 249);
+  --light-purple: rgb(236, 204, 247);
+}
+
+html {
+  box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/********** Header **********/
+
+/********** Main **********/
