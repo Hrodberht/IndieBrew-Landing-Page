@@ -60,29 +60,31 @@
             Create your IndieBrew Account
         </h2>
 
-        <p class="form__field">
-            <label for="email">Email</label>
+        <p class="form__field-container">
+            <label class="form__label" for="email">Email</label>
 
-            <input type="email" name="email" class="form__email" id="email" placeholder="john@example.com">
+            <input type="email" name="email" class="form__field form__email" id="email" placeholder="john@example.com">
         </p>
 
-        <p class="form__field">
-            <label for="name">Full Name</label>
+        <p class="form__field-container">
+            <label class="form__label" for="name">Full Name</label>
 
-            <input type="text" name="name" class="form__name" id="name" placeholder="John Doe">
+            <input type="text" name="name" class="form__field form__name" id="name" placeholder="John Doe">
         </p>
 
-        <p class="form__field">
-            <label for="password">Password</label>
+        <p class="form__field-container">
+            <label class="form__label" for="password">Password</label>
 
-            <input type="password" name="password" class="form__password" id="password" placeholder="At least 8 characters">
+            <input type="password" name="password" class="form__field form__password" id="password" placeholder="At least 8 characters">
         </p>
 
-        <p class="form__terms">
+        <div class="form__terms">
             <input type="checkbox" name="checkbok" class="form__checkbox" id="checkbox">
 
-            By creating an account on IndieBrew, you agree to the Terms & Conditions.
-        </p>
+            <p class="form__terms-text">
+                By creating an account on IndieBrew, you agree to the <span class="form__terms-text--purple"><strong>Terms & Conditions.</strong></span>
+            </p>
+        </div>
 
         <button class="form__button" type="button">
             Create an Account
