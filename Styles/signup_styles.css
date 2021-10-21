@@ -80,7 +80,7 @@ button {
 }
 
 .header__back-text {
-    display: hidden;
+    display: none;
 }
 
 /********** Main **********/
@@ -107,7 +107,7 @@ button {
 }
 
 .service-descr__icon--lightbulb {
-    padding-left: 5px;
+    padding-right: 10px;
 }
 
 /* Form */
@@ -173,33 +173,90 @@ button {
 }
 
 @media only screen and (min-width: 680px) {
-    /********** Base **********/
 
-    .p-container {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
+/********** Base **********/
 
-    /********** Header **********/
+.p-container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
-    .header__back-text {
-        display: inline-block;
-        font-size: 1.2em;
-        font-weight: 700;
-        color: var(--black);
-        vertical-align: 50%;
-        padding-left: 15px;
-    }
+/********** Header **********/
 
-    /********** Main **********/
+.header__back-text {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--black);
+    vertical-align: 50%;
+    padding-left: 15px;
+    position: relative;
+    bottom: 3px;
+}
 
-    /* Form */
+/********** Main **********/
 
-    .form {
-        padding: 70px;
-    }
+/* Form */
 
-    .form__field {
-        padding: 20px;
-    }
+.form {
+    padding: 70px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form__field {
+    padding: 20px;
+}
+
+.form__button {
+    max-width: 854px;
+}
+}
+
+@media only screen and (min-width: 1210px) {
+    
+/********** Utilities **********/
+
+.p-container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+/********** Header **********/
+
+.header {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header__back-text {
+    position: relative;
+    bottom: 3px;
+}
+
+/********** Main **********/
+
+.main__container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* Feed */
+
+.service-descr {
+    align-self: center;
+}
+
+.service-descr__icon--lightbulb {
+    padding-right: 10px;
+}
+
 }
