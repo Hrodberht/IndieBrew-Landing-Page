@@ -61,6 +61,7 @@ button {
 
 .container {
     background: linear-gradient(105deg, rgb(255, 243, 233) 0%, rgba(236,204,247,.4) 30%, rgb(253, 252, 249) 130%);
+    height: 100vh;
 }
 
 /********** Header **********/
