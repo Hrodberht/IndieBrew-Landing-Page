@@ -1,6 +1,8 @@
 
 # Welcome to Codewell! 👋
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27e2556b-7987-4ea3-b32f-8b4549500a11/deploy-status)](https://app.netlify.com/sites/indiebrew-codewell/deploys)
+
 Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects. 
 
 Free or paid, all templates are high quality and will make great portfolio pieces.
